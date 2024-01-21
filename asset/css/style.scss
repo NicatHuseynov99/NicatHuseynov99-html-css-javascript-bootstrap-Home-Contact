@@ -767,6 +767,89 @@
   }
 }
 
+.main {
+  #contact-header {
+    margin-top: 40px;
+    margin-bottom: 10px;
+
+    .container {
+      max-width: 1200px;
+
+      .wrapper {
+        .contact-title {
+          margin-bottom: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          h1 {
+
+            padding: 0;
+            margin: 0;
+            font-size: 40px;
+            font-weight: 400;
+          }
+        }
+
+        .contact-text {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          p {
+            font-size: 14px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+
+  #contact-us {
+    .container {
+      max-width: 1200px;
+      .row {
+        .contact {
+          margin: 15px 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          padding: 30px;
+          background-color: #f3f3f6;
+          border-radius: 8px;
+
+          i {
+            font-size: 40px;
+            color: #233a95;
+            margin-bottom: 20px;
+          }
+
+          h5 {
+            margin: 0;
+            font-size: 15px;
+            font-weight: 500;
+            margin-bottom: 8px;
+          }
+
+          p {
+            margin: 0;
+            font-size: 13px;
+            font-weight: 400;
+            margin-bottom: 16px;
+          }
+        }
+
+        .number {}
+
+        .mail {}
+      }
+    }
+  }
+
+
+}
+
 .site-footer {
   #footer-subscribe {
     background-color: #233a95;

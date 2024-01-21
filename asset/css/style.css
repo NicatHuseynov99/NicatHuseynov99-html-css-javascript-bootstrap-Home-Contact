@@ -592,6 +592,64 @@
   margin-right: 7px;
 }
 
+.main #contact-header {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.main #contact-header .container {
+  max-width: 1200px;
+}
+.main #contact-header .container .wrapper .contact-title {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main #contact-header .container .wrapper .contact-title h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  font-weight: 400;
+}
+.main #contact-header .container .wrapper .contact-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main #contact-header .container .wrapper .contact-text p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.main #contact-us .container {
+  max-width: 1200px;
+}
+.main #contact-us .container .row .contact {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  background-color: #f3f3f6;
+  border-radius: 8px;
+}
+.main #contact-us .container .row .contact i {
+  font-size: 40px;
+  color: #233a95;
+  margin-bottom: 20px;
+}
+.main #contact-us .container .row .contact h5 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.main #contact-us .container .row .contact p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
 .site-footer #footer-subscribe {
   background-color: #233a95;
   color: #fff;
